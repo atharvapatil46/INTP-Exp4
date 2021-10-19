@@ -28,7 +28,8 @@ form.addEventListener("submit", function (event) {
 
     }
     else {
-        document.write("Username: " + username.value);
+        document.write("<b>Yayyy!!!!! &nbsp The Form has been Submitted Successfully! </b>");
+        document.write("<br><br>Username: " + username.value);
         document.write("<br><br>Password: " + password.value);
         document.write("<br><br>Email ID: " + email.value);
         document.write("<br><br>Birthdate: " + date.value);
